@@ -1,0 +1,112 @@
+html{
+    font-size: 14px; 
+    font-family: 'Raleway', sans-serif; 
+}
+
+body{
+    margin: 10px 300px;
+    padding: 10px;
+    
+}
+
+div{
+    margin: 30px 0px;
+}
+
+p{
+    text-indent: 2rem;
+}
+
+/* font weight */
+
+#fw1{
+    font-weight: lighter;
+}
+
+#fw2{
+    font-weight: normal;
+}
+
+#fw3{
+    font-weight: bold;
+}
+
+#fw4{
+    font-weight: 900;
+}
+
+/* font style */
+
+#fs2{
+    font-style: normal;
+}
+
+#fs2{
+    font-style: italic;
+}
+
+#fs3{
+    font-style:oblique
+}
+
+/* letter spacing */
+
+#ls1{
+    letter-spacing: -0.5px;
+}
+
+#ls2{
+    letter-spacing: normal;
+}
+
+#ls3{
+    letter-spacing: 2px;
+}
+
+/* text transform */
+
+
+#tt1{
+    text-transform: lowercase;
+}
+
+#tt2{
+    text-transform: uppercase;
+}
+
+#tt3{
+    text-transform: capitalize;  
+}
+
+/* text decoration */
+
+#td1{
+    text-decoration: overline dotted;
+}
+
+#td2{
+    text-decoration: line-through dashed;
+}
+
+#td3{
+    text-decoration: underline wavy;
+}
+
+/* span */
+span{
+    font-size: 1.3em;
+    margin-right: 5px;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-transform: none;
+    text-decoration: none;
+    background-color: antiquewhite;
+}
+
+#td1 span, #td2 span, #td3 span {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px;
+    text-indent: 0;
+}
