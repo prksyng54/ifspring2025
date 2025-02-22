@@ -78,33 +78,36 @@ h2 {
     margin: 0px;
     height: 685px;
     color: #fff6cf;
+    display: flex;
+    padding: 0px;
 }
 
 .s2 div {
-    margin: 0px 200px;
+    margin: 0px auto;
     padding: 0px;
 }
 
 .s2 h2 {
     text-align: center;
     font-size: 40px;
-    margin: 0px 0px 30px;
-    padding-top: 35px;
+    margin: 0px 0px 10px;
+    padding: 35px 0px 0px;
 }
 
 .s2 ul {
     display: flex;
     flex-wrap: wrap;
     padding: 0px;
-    margin-left: 50px;
+    max-width: 950px;
+    margin: 31px 0px 0px;
 }
 
 .s2 li {
     list-style-type: none;
     display: block;
-    width: 45%;
+    width: 50%;
     max-height: 150px;
-    margin: 0px 27px 25px 0px;
+    margin: 0px 0px 25px 0px;
 }
 
 .s2 img {
@@ -127,7 +130,7 @@ h2 {
 }
 
 .image_info h3{
-    margin: 3px 0px 7px;
+    margin: 0px 0px 7px;
     font-size: 20px;
 }
 
