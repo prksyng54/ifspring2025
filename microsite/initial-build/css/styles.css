@@ -1,0 +1,310 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    color: #4E3629;
+}
+
+h2{
+    margin: 2vh 0;
+    font-family: "Manjari";
+    font-weight: 800;
+    font-size: 2rem;
+    letter-spacing: 1.2px;
+}
+
+h3{
+    margin: 2vh 0 0;
+    font-family: "Manjari";
+    font-weight: 800;
+    font-size: 1.2em;
+    letter-spacing: 1.2px;
+}
+
+p{
+    margin: 5vh 0;
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+ul{
+    margin: 2vh 0 0;
+    padding-left: 5vw;
+}
+
+li{
+    margin: 2vh 0 0;
+    font-size: 1.1em;
+}
+
+
+header{
+    position: sticky;
+    margin: 0;
+    padding: 4vh 10vw;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+
+header a {
+    color: #999c4f;
+    margin: 0;
+    text-decoration: none;
+}
+
+.matcha{
+    font-family: "Manjari";
+    margin: 1vh 40vw 0 0;
+    font-size: 1.8em;
+    color: #999c4f;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+section, .container, .container img {
+    width: 100%;
+    height:50%;
+}
+
+
+.container {
+    padding: 7vh 10vw;
+}
+
+#main {
+    position: relative;
+}
+
+#main::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(to bottom, transparent, #ffffff);
+}
+
+#main .container{
+    margin:0;
+    padding:0;
+    width: 100%;
+}
+
+#main img{
+    width: 100%;
+}
+
+#matcha-info {
+    width: 80%;
+    margin: 2vh auto;
+    color: #4E3629;
+    padding: 0;
+}
+
+#matcha-info span{
+    font-size: 1.3em;
+    margin: 0;
+}
+
+#formal_definition {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+
+#formal_definition::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2021/04/green_tea_GettyImages1215951398_Header-1024x575.jpg?w=1155&h=1528'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2; 
+    z-index: -1;
+}
+
+#formal_definition .box {
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+#characteristics{
+    background-color: #e3e5bf;
+}
+
+
+/* history page */
+#history::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100vw;
+    background-image: url('https://matcha.com/cdn/shop/articles/Screen_Shot_2019-09-05_at_1.36.56_PM.png?v=1567717254');
+    background-size: contain;
+    background-position: center;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+#history .box {
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+#history {
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 5vw;
+}
+
+#china, #japan {
+    margin: 1vh 5vw;
+}
+
+.region h2{
+    color: #70722e;
+}
+
+#tea-type{
+    background-color: rgb(153, 156, 79, 0.5);
+}
+#tea-type img {
+    float: right;
+    margin: 2em 0 2em 2em;
+    width: 25em; 
+    height: auto;
+    border-radius: 8px; 
+}
+
+#decline{
+    background-color: #4E3629;
+}
+
+#decline h2,
+#decline p {
+    color: #f2eece;
+}
+
+/* how it works */
+#matcha-preparation h2{
+    background-color:#f2eece;
+    padding: 3vh 5vw 1vh;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+#matcha-preparation h3{
+    color:#70722e;
+    font-size: 1.7rem;
+}
+
+
+#matcha-preparation ol li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 5vh;
+    flex-wrap: wrap;
+
+}
+
+#matcha-preparation li img {
+    width: 300px;
+    height: auto;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+
+#matcha-preparation li h3,
+#matcha-preparation li p {
+    margin: 0;
+}
+
+#matcha-preparation li div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 5vh;
+}
+
+#matcha-type{
+    background-color: #4E3629;
+}
+
+#matcha-type p, #matcha-type h3{
+    color:rgb(255, 249, 226);
+}
+
+#matcha-type p{
+    margin-left: 3vw;
+    font-size: 1.1rem;
+}
+
+#matcha-type img {
+    height: 30vw;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 4px;
+    margin-bottom: 3vh;
+}
+
+
+/* related products */
+#related-products {
+    background-color: #e3e5bf;
+    padding: 5vh 10vw;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
+    gap: 2rem;
+    margin-top: 4vh;
+}
+
+.product-box {
+    background-color: rgb(255, 249, 226);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    transition: transform 0.3s;
+}
+
+.product-box:hover {
+    transform: translateY(-5px);
+}
+
+.product-box img {
+    width: 15vw;
+    height: 9vw;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+#related-products p{
+    text-align: left;
+}
